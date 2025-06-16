@@ -53,7 +53,7 @@ class ValidationTest extends TestCase
         return [
             [[], 'Argument #1 ($data) must be of type string|int, array given'],
             [3.5, 'Argument #1 ($data) must be of type string|int, float given'],
-            [false, 'Argument #1 ($data) must be of type string|int, bool given'],
+            [false, 'Argument #1 ($data) must be of type string|int, false given'],
         ];
     }
 }
